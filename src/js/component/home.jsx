@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 //create your first component
 const Home = () => {
 	const [isRed, setRed] = useState(false);
@@ -17,7 +18,7 @@ const Home = () => {
 							setGreen(false);
 						}}
 						className={`${
-							isRed === true ? "botonrojo" : ""
+							isRed === true ? "rojo" : ""
 						} rounded-circle`}></button>
 				</div>
 				<div className="">
@@ -28,7 +29,7 @@ const Home = () => {
 							setGreen(false);
 						}}
 						className={`${
-							isYellow === true ? "botonamarillo" : ""
+							isYellow === true ? "amarillo" : ""
 						} rounded-circle h-33`}></button>
 				</div>
 				<div>
@@ -39,10 +40,11 @@ const Home = () => {
 							setGreen(true);
 						}}
 						className={`${
-							isGreen === true ? "botonverde" : ""
+							isGreen === true ? "verde" : ""
 						} rounded-circle h-33`}></button>
 				</div>
 			</div>
+			
 		</div>
 	);
 };

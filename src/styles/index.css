@@ -1,8 +1,5 @@
 body {
     background-image: url(https://s3-eu-west-1.amazonaws.com/racingnews-v2-prod/2021/Verstappen/_1125x633_crop_center-center_85_none/SI202111140358_news.jpg?v=1646227790);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
@@ -11,6 +8,7 @@ body {
     width: 180px;
     background-color: rgb(53, 49, 49);
     box-shadow: 0px 0px 5px black, inset 0px 0px 10px black;
+    opacity: 92%;
 
 }
 
@@ -18,24 +16,27 @@ button {
     height: 75px;
     width: 100px;
     margin-top: 15px;
-    border: none;
     box-shadow: inset 0px 0px 10px, 5px 5px;
 }
 
-button.botonverde {
-    box-shadow: 0px 0px 15px 10px green, inset 3px 3px 10px black;
-    background-color: green;
+button.verde {
+    box-shadow: 0px 0px 15px 10px rgb(4, 185, 4), inset 3px 3px 10px black;
+    background-color: rgb(13, 179, 13);
+    border-color: rgb(0, 255, 0);
 }
 
-button.botonamarillo {
-    box-shadow: 0px 0px 15px 10px yellow, inset 3px 3px 10px black;
-    background-color: yellow;
+button.amarillo {
+    box-shadow: 0px 0px 15px 10px rgb(247, 202, 2), inset 3px 3px 10px black;
+    background-color: rgb(243, 206, 42);
+    border-color: rgb(230, 255, 2);
 }
 
-button.botonrojo {
+button.rojo {
     box-shadow: 0px 0px 15px 10px red, inset 3px 3px 10px black;
     background-color: red;
+    border-color: rgb(255, 0, 0);
 }
+
 
 .soporte {
     height: 40px;
