@@ -4,8 +4,11 @@ import React, { useState } from "react";
 //create your first component
 const Home = () => {
 	const [isRojo, setRojo] = useState(false);
+
 	const [isAmarillo, setAmarillo] = useState(false);
+	
 	const [isVerde, setVerde] = useState(false);
+
 	return (
 		<div className="">
 			<div className="soporte text-center mx-auto"></div>

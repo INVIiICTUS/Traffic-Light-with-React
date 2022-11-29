@@ -12,6 +12,13 @@ body {
 
 }
 
+.soporte {
+    height: 40px;
+    width: 15px;
+    background-color: rgb(53, 49, 49);
+    box-shadow: 0px 0px 5px black, inset 0px 0px 10px black;
+}
+
 button {
     height: 75px;
     width: 100px;
@@ -19,28 +26,20 @@ button {
     box-shadow: inset 0px 0px 10px, 5px 5px;
 }
 
-button.verde {
-    box-shadow: 0px 0px 15px 10px rgb(4, 185, 4), inset 3px 3px 10px black;
-    background-color: rgb(13, 179, 13);
-    border-color: rgb(0, 255, 0);
-}
-
-button.amarillo {
-    box-shadow: 0px 0px 15px 10px rgb(247, 202, 2), inset 3px 3px 10px black;
-    background-color: rgb(243, 206, 42);
-    border-color: rgb(230, 255, 2);
-}
-
 button.rojo {
-    box-shadow: 0px 0px 15px 10px red, inset 3px 3px 10px black;
+    box-shadow: 0px 0px 15px 20px red, inset 3px 3px 20px black;
     background-color: red;
     border-color: rgb(255, 0, 0);
 }
 
+button.amarillo {
+    box-shadow: 0px 0px 15px 20px rgb(247, 202, 2), inset 3px 3px 20px black;
+    background-color: rgb(243, 206, 42);
+    border-color: rgb(230, 255, 2);
+}
 
-.soporte {
-    height: 40px;
-    width: 15px;
-    background-color: rgb(53, 49, 49);
-    box-shadow: 0px 0px 5px black, inset 0px 0px 10px black;
+button.verde {
+    box-shadow: 0px 0px 15px 20px rgb(4, 185, 4), inset 3px 3px 20px black;
+    background-color: rgb(13, 179, 13);
+    border-color: rgb(0, 255, 0);
 }
